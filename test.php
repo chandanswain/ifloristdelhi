@@ -7,4 +7,11 @@
  */
 
 echo "This is my test page";
+
+$count = 0 ;
+while($count < 10):
+    echo 'Count No :'.$count;
+    echo "<br />";
+    $count++;
+endwhile;
 ?>
